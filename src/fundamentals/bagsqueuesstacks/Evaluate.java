@@ -9,9 +9,12 @@
  */
 package fundamentals.bagsqueuesstacks;
 
+import java.util.Arrays;
+import java.util.Stack;
+
 public class Evaluate {
     public static void main(String[] args) {
-        /*String expression = "( 1 + ( ( 2 + 3 ) * ( 4 * 5 ) ) )";
+        String expression = "( 1 + ( ( 2 + 3 ) * ( 4 * 5 ) ) )";
         String[] expreArray = expression.split(" ");
         int i = 0;
         System.out.println(Arrays.toString(expreArray));
@@ -46,6 +49,6 @@ public class Evaluate {
             }
             i++;
         }
-        System.out.println(values.pop());*/
+        System.out.println(values.pop());
     }
 }
