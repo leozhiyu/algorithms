@@ -8,6 +8,7 @@
 package fundamentals.bagsqueuesstacks;
 
 import java.util.Iterator;
+import java.util.Stack;
 
 public class LinkedStack<T> implements Iterable<T> {
 
@@ -92,6 +93,7 @@ public class LinkedStack<T> implements Iterable<T> {
     }
 
     public static void main(String[] args) {
+        Stack<String> [] a = new Stack[3];
         String[] strArr = "to be or not to - be - - that - - - is".split(" ");
         LinkedStack<String> linkedStack = new LinkedStack();
         for (int i = 0; i < strArr.length; i++){
