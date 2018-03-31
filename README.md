@@ -15,3 +15,11 @@
 - [查找数组中有多少对数和为 0](./src/fundamentals/analysis/TwoSumFast.java)
 
 - [查找数组中有多少组三个数和为 0](./src/fundamentals/analysis/ThreeSumFast.java)
+
+- [quick-find算法](./src/fundamentals/unionfind/QuickFind.java)
+
+- [quick-union算法](./src/fundamentals/unionfind/QuickUnion.java)
+
+- [加权quick-union算法](./src/fundamentals/unionfind/WeightedQuickUnion.java)
+
+## 第二章 - 排序 ##
