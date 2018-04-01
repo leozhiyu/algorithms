@@ -23,3 +23,6 @@
 - [加权quick-union算法](./src/fundamentals/unionfind/WeightedQuickUnion.java)
 
 ## 第二章 - 排序 ##
+
+- [插入排序（普通版本和改进版本）](./src/sorting/elementarysorts/Insertion.java)
+
