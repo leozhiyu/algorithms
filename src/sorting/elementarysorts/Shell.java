@@ -25,11 +25,9 @@ public class Shell {
             for (int i = gap; i < N; i++) {
                 int j = i;
                 int temp = arr[i];
-                for (; j >= gap && arr[j] < arr[j - gap]; j -= gap) {
+                // 注意此处比较的是 temp，而不是 arr[j] < arr[j - gap]，因为 arr[j] 的值还没替换
+                for (; j >= gap && temp < arr[j - gap]; j -= gap) {
                     arr[j] = arr[j-gap];
-                    /*int temp = arr[j];
-                    arr[j] = arr[j - gap];
-                    arr[j - gap] = temp;*/
                 }
                 arr[j] = temp;
             }
@@ -53,7 +51,8 @@ public class Shell {
     }
 
     public static void main(String[] args) {
-        int[] arr = generateRandomArray(10, 20);
+        //int[] arr = generateRandomArray(10, 20);
+        int[] arr = {7, 1, 18, 6, 17, 5, 1, 13, 10, 4};
         System.out.println(Arrays.toString(arr));
         shell(arr);
         System.out.println(Arrays.toString(arr));

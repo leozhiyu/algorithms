@@ -26,3 +26,4 @@
 
 - [插入排序（普通版本和改进版本）](./src/sorting/elementarysorts/Insertion.java)
 
+- [希尔排序（改进版的插入排序）](./src/sorting/elementarysorts/Shell.java)
