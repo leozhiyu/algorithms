@@ -28,5 +28,7 @@
 
 - [希尔排序（改进版的插入排序）](./src/sorting/elementarysorts/Shell.java)
 
-- [归并排序（改进版的插入排序）](./src/sorting/mergesort/MergeSort.java)
+- [自顶向下的归并排序](./src/sorting/mergesort/MergeSort.java)
+
+- [自底向上的归并排序](./src/sorting/mergesort/MergeSortBottomToTop.java)
 
